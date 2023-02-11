@@ -1,5 +1,5 @@
 {
-    "name": "car",
+    "name": "car-cli",
     "version": "1.0.0",
     "description": "A command-line utility to manage cars",
     "main": "index.js",
@@ -7,9 +7,6 @@
     "bin": "./car.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon --exec ts-node -- car.ts",
-        "ts-node": "ts-node car.ts",
-        "add-car": "ts-node car.ts a",
         "build": "tsc"
     },
     "keywords": [],
